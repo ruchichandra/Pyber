@@ -303,7 +303,7 @@ plt.scatter(total_rides_rural_city, avg_fare_rural_city,s=total_drivers_rural_ci
 
 
 
-    <matplotlib.collections.PathCollection at 0x1ec0452e630>
+    <matplotlib.collections.PathCollection at 0x24330659ba8>
 
 
 
@@ -323,14 +323,14 @@ plt.legend(loc='upper right')
 
 
 
-    <matplotlib.legend.Legend at 0x1ec043ff6d8>
+    <matplotlib.legend.Legend at 0x243305429e8>
 
 
 
 
 ```python
 # Save an image of the chart and print to screen
-plt.savefig("Pyber Ride Sharing.png")
+plt.savefig("Images/Pyber Ride Sharing.png")
 plt.show()
 ```
 
@@ -352,7 +352,7 @@ explode = (0, 0, 0.1)
 plt.title("% of Total Fares By City Types")
 plt.pie(total_fare, explode=explode, labels=labels, colors=colors, autopct="%1.1f%%",shadow=True, startangle=160)
 plt.axis("equal")
-plt.savefig("% of Total Fares By City Types.png")
+plt.savefig("Images/% of Total Fares By City Types.png")
 plt.show()
 ```
 
@@ -375,7 +375,7 @@ plt.title("% of Total Rides By City Types")
 plt.pie(total_rides, explode=explode, labels=labels, colors=colors,
         autopct="%1.1f%%", shadow=True, startangle=140)
 plt.axis("equal")
-plt.savefig("% of Total Rides By City Types.png")
+plt.savefig("Images/% of Total Rides By City Types.png")
 plt.show()
 ```
 
@@ -398,7 +398,7 @@ plt.title("% of Total Drivers By City Types")
 plt.pie(total_drivers, explode=explode, labels=labels, colors=colors,
         autopct="%1.1f%%", shadow=True, startangle=140)
 plt.axis("equal")
-plt.savefig("% of Total Drivers By City Types.png")
+plt.savefig("Images/% of Total Drivers By City Types.png")
 plt.show()
 ```
 
