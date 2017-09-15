@@ -303,7 +303,7 @@ plt.scatter(total_rides_rural_city, avg_fare_rural_city,s=total_drivers_rural_ci
 
 
 
-    <matplotlib.collections.PathCollection at 0x24330659ba8>
+    <matplotlib.collections.PathCollection at 0x2aee6c18be0>
 
 
 
@@ -323,7 +323,7 @@ plt.legend(loc='upper right')
 
 
 
-    <matplotlib.legend.Legend at 0x243305429e8>
+    <matplotlib.legend.Legend at 0x2aee69e2860>
 
 
 
