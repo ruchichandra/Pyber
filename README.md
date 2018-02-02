@@ -1,15 +1,19 @@
 
 # Pyber Ride Sharing Analysis
 
-•	The Bubble Plot indicates that number of rides and drivers both are more in urban cities as compared to suburban and rural cities. Although average fare is more for suburban and rural cities for few instances.
+## The Bubble Plot indicates that number of rides and drivers both are more in urban cities as compared to suburban and rural cities. Although average fare is more for suburban and rural cities for few instances.
+![myimage-alt-tag](https://github.com/ruchichandra/Pyber/blob/master/Images/Pyber%20Ride%20Sharing.png)
 
-•	All three pie charts show that urban cities have a good percentage of total fare, total rides and total drivers.
+## All three pie charts show that urban cities have a good percentage of total fare, total rides and total drivers.
+![myimage-alt-tag](https://github.com/ruchichandra/Pyber/blob/master/Images/%25%20of%20Total%20Fares%20By%20City%20Types.png)
+![myimage-alt-tag](https://github.com/ruchichandra/Pyber/blob/master/Images/%25%20of%20Total%20Rides%20By%20City%20Types.png)
+![myimage-alt-tag](https://github.com/ruchichandra/Pyber/blob/master/Images/%25%20of%20Total%20Fares%20By%20City%20Types.png)
 
-•	From this analysis, this can be predicted that there are many new opportunities to expand the business in suburban and rural cities, in terms of hiring more drivers to operate in these cities.
+## From this analysis, this can be predicted that there are many new opportunities to expand the business in suburban and rural cities, in terms of hiring more drivers to operate in these cities.
 
 
 
-```python
+```pythonhttps://github.com/ruchichandra/Pyber/blob/master/Images/%25%20of%20Total%20Fares%20By%20City%20Types.png
 # Dependencies
 import matplotlib.pyplot as plt
 import numpy as np
